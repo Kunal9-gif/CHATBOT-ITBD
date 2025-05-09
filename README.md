@@ -85,14 +85,4 @@ pip install -r requirements.txt
 streamlit run app.py --server.port=8501 --server.enableCORS false
 #Then open port 8501 in your EC2 security group settings.
 
-📎 File Structure
-graphql
-Copy code
-.
-├── app.py                # Streamlit chat interface
-├── ingestion.py          # Load, chunk, and embed PDFs into Pinecone
-├── documents/            # Your PDF files go here
-├── .env                  # Environment variables
-├── requirements.txt
-├── .gitignore
-└── README.md
+
