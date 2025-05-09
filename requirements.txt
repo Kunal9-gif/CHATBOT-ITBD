@@ -1,23 +1,25 @@
-# Core environment management
-python-dotenv
+# Web Framework
+streamlit==1.15.0
 
-# Streamlit for the frontend UI
-streamlit
+# Pinecone client
+pinecone-client==2.0.0
 
-# Pinecone vector store
-pinecone-client
+# Langchain and Langchain OpenAI Embeddings
+langchain==0.14.0
+langchain-openai==0.2.0
 
-# LangChain and dependencies
-langchain
-langchain-openai
-langchain-pinecone
-langchain-community
+# PDF handling
+pypdf==3.0.1  # Added to handle PDF parsing
 
-# PDF document loading
-PyMuPDF  # used by PyPDFDirectoryLoader internally
+# OpenAI package
+openai==0.27.0  # For the OpenAI models (embeddings, etc.)
 
-# Use OpenRouter-compatible HTTP library
-httpx
+# Environment variable management
+python-dotenv==0.21.0
 
-# Optional (but useful for debugging)
-tqdm
+# Additional utilities
+requests==2.28.1  # For any HTTP request functionality
+
+# Text processing
+numpy==1.24.2  # Often used under the hood in many ML packages
+
